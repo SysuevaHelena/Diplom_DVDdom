@@ -1,0 +1,174 @@
+{
+	"info": {
+		"_postman_id": "cdccd8b1-31da-49cb-bb0b-6e763ff0cecb",
+		"name": "DVD",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25337575",
+		"_collection_link": "https://galactic-comet-69217.postman.co/workspace/My-Workspace~aba722cf-7087-4c6c-861a-16624211e51e/collection/25337575-cdccd8b1-31da-49cb-bb0b-6e763ff0cecb?action=share&source=collection_link&creator=25337575"
+	},
+	"item": [
+		{
+			"name": "Registr",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "POST /signup/ HTTP/1.1",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Accept",
+						"value": " */*",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": " gzip, deflate, br",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Language",
+						"value": " ru,en;q=0.9",
+						"type": "text"
+					},
+					{
+						"key": "Connection",
+						"value": " keep-alive",
+						"type": "text"
+					},
+					{
+						"key": "Content-Length",
+						"value": " 228",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": " application/x-www-form-urlencoded; charset=UTF-8",
+						"type": "text"
+					},
+					{
+						"key": "Cookie",
+						"value": " __utmz=7379175.1693727050.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ym_uid=1693727050912314568; _ym_d=1693727050; tmr_lvid=58a5595819af509730800863efc3d2ed; tmr_lvidTS=1693727050092; __utma=7379175.673247097.1693727050.1697474875.1697563995.8; __utmc=7379175; __utmt=1; __utmb=7379175.1.10.1697563995; _ym_isad=2; _ym_visorc=w; landing=%2Fsignup%2F; PHPSESSID=q2apgo15fpsp3jpi1mn87meou8; tmr_detect=0%7C1697563998184",
+						"type": "text"
+					},
+					{
+						"key": "Host",
+						"value": " www.dvddom.ru",
+						"type": "text"
+					},
+					{
+						"key": "Origin",
+						"value": " https://www.dvddom.ru",
+						"type": "text"
+					},
+					{
+						"key": "Referer",
+						"value": " https://www.dvddom.ru/",
+						"type": "text"
+					},
+					{
+						"key": "Sec-Fetch-Dest",
+						"value": " empty",
+						"type": "text"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": " cors",
+						"type": "text"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": " same-origin",
+						"type": "text"
+					},
+					{
+						"key": "User-Agent",
+						"value": " Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.967 YaBrowser/23.9.1.967 Yowser/2.5 Safari/537.36",
+						"type": "text"
+					},
+					{
+						"key": "X-Requested-With",
+						"value": " XMLHttpRequest",
+						"type": "text"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": " \"Chromium\";v=\"116\", \"Not)A;Brand\";v=\"24\", \"YaBrowser\";v=\"23\"",
+						"type": "text"
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": " ?0",
+						"type": "text"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": " \"Windows\"",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "data[firstname]",
+							"value": " Эльдар",
+							"type": "text"
+						},
+						{
+							"key": "data[email]",
+							"value": " ildarey_6768@mail.ru",
+							"type": "text"
+						},
+						{
+							"key": "data[password]",
+							"value": " Alina0502.",
+							"type": "text"
+						},
+						{
+							"key": "data[password_confirm]",
+							"value": " Alina0502.",
+							"type": "text"
+						},
+						{
+							"key": "captcha",
+							"value": "484qh",
+							"type": "text"
+						},
+						{
+							"key": "wa_json_mode",
+							"value": " 1",
+							"type": "text"
+						},
+						{
+							"key": "need_redirects",
+							"value": " 1",
+							"type": "text"
+						},
+						{
+							"key": "contact_type",
+							"value": " person",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://www.dvddom.ru/signup/",
+					"protocol": "https",
+					"host": [
+						"www",
+						"dvddom",
+						"ru"
+					],
+					"path": [
+						"signup",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
