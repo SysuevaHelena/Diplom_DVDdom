@@ -1,0 +1,156 @@
+{
+  "id": "5f5b0e3e-e467-42e5-ba8b-fff8fefe96a4",
+  "version": "2.0",
+  "name": "DVDdom_cart",
+  "url": "https://www.dvddom.ru",
+  "tests": [{
+    "id": "67338f59-31f3-4c73-90c0-2ad8a0de5a72",
+    "name": "Dobavlenie_v_corzinu",
+    "commands": [{
+      "id": "49e080a6-74e6-4f13-9a70-86a211528a41",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55e470f8-8032-4eb7-8b32-8b94d105c8ae",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2546dabf-3b84-4278-be21-78660ecb35ab",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) .ls-is-cached",
+      "targets": [
+        ["css=li:nth-child(1) .ls-is-cached", "css:finder"],
+        ["xpath=//img[@alt='Изображение товара Индиана Джонс и Колесо судьбы*']", "xpath:img"],
+        ["xpath=//div[@id='page-content']/section/ul/li/div/div/a/div/div[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc6f75b2-a56c-487e-ac2c-91b2c5a73412",
+      "comment": "",
+      "command": "click",
+      "target": "name=quantity",
+      "targets": [
+        ["name=quantity", "name"],
+        ["css=.qty-wrapper > input", "css:finder"],
+        ["xpath=//input[@name='quantity']", "xpath:attributes"],
+        ["xpath=//form[@id='cart-form']/div[4]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2252f88-e0ea-4263-b68e-7b1be81acea9",
+      "comment": "",
+      "command": "type",
+      "target": "name=quantity",
+      "targets": [
+        ["name=quantity", "name"],
+        ["css=.qty-wrapper > input", "css:finder"],
+        ["xpath=//input[@name='quantity']", "xpath:attributes"],
+        ["xpath=//form[@id='cart-form']/div[4]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "7c7cb57f-c24e-4445-bdde-e74ae5e68bc5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.submit-wrapper:nth-child(2) > .second-type",
+      "targets": [
+        ["css=.submit-wrapper:nth-child(2) > .second-type", "css:finder"],
+        ["xpath=//input[@value='В корзину']", "xpath:attributes"],
+        ["xpath=//form[@id='cart-form']/div[4]/div/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc6d50d5-9066-4f83-b2da-c305219a2af5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.type2 > .parent:nth-child(1) > a",
+      "targets": [
+        ["css=.type2 > .parent:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(@href, '/novinki/')])[4]", "xpath:href"],
+        ["xpath=//nav/div[2]/div/div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c415085-e328-4109-82b7-2bf88ab9b447",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) .ls-is-cached",
+      "targets": [
+        ["css=li:nth-child(1) .ls-is-cached", "css:finder"],
+        ["xpath=//img[@alt='Изображение товара Папины дочки Новые (20 серий)']", "xpath:img"],
+        ["xpath=//div[@id='product-list']/ul/li/div/div/a/div/div[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d151bc8b-ae54-47f6-85ca-afd0a2b77786",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,120.53333282470703)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb2b7f76-514c-4a8c-a60f-fd810b0d659e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.qty-plus > .material-icons",
+      "targets": [
+        ["css=.qty-plus > .material-icons", "css:finder"],
+        ["xpath=//form[@id='cart-form']/div[4]/div/div[2]/div/div/a[2]/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a[2]/i", "xpath:position"],
+        ["xpath=//i[contains(.,'')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "031e015e-1eeb-49a7-a5a6-75b085739d52",
+      "comment": "",
+      "command": "click",
+      "target": "css=.submit-wrapper:nth-child(2) > .second-type",
+      "targets": [
+        ["css=.submit-wrapper:nth-child(2) > .second-type", "css:finder"],
+        ["xpath=//input[@value='В корзину']", "xpath:attributes"],
+        ["xpath=//form[@id='cart-form']/div[4]/div/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ddf73ad-ec67-4d33-b3b7-18dae47d16a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-text:nth-child(1) > .cart-total",
+      "targets": [
+        ["css=.cart-text:nth-child(1) > .cart-total", "css:finder"],
+        ["xpath=//span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "263693c4-50b9-45f5-aca7-6ecda45e1f1d",
+      "comment": "",
+      "command": "echo",
+      "target": "Товары добавлены в корзину! Поздравляем!",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8e649921-0385-4a52-9d81-b36f26f39640",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["67338f59-31f3-4c73-90c0-2ad8a0de5a72"]
+  }],
+  "urls": ["https://www.dvddom.ru/"],
+  "plugins": []
+}
